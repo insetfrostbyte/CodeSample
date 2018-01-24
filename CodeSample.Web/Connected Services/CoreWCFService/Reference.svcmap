@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e5631a2d-fa3b-4c2f-9d43-870910683c2f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58472/Boggle/BoggleService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BoggleService.xsd" MetadataType="Schema" ID="db6bb1e1-c286-43ab-aef4-b6d4d03220bd" SourceId="1" SourceUrl="http://localhost:58472/Boggle/BoggleService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BoggleService.wsdl" MetadataType="Wsdl" ID="ebd35898-4ea8-4967-94fd-4e17fb747c9d" SourceId="1" SourceUrl="http://localhost:58472/Boggle/BoggleService.svc?wsdl" />
+    <MetadataFile FileName="BoggleService1.xsd" MetadataType="Schema" ID="39558476-41f2-4db8-9c6c-880a79a33f9a" SourceId="1" SourceUrl="http://localhost:58472/Boggle/BoggleService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BoggleService2.xsd" MetadataType="Schema" ID="21939880-c48e-4d4d-9ce3-b35c29cf2e36" SourceId="1" SourceUrl="http://localhost:58472/Boggle/BoggleService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BoggleService3.xsd" MetadataType="Schema" ID="8987ad7b-8c60-44b2-9798-6d0cf5df53eb" SourceId="1" SourceUrl="http://localhost:58472/Boggle/BoggleService.svc?xsd=xsd3" />
+    <MetadataFile FileName="BoggleService.disco" MetadataType="Disco" ID="5efc947c-af1c-4521-b39b-36be43f129a8" SourceId="1" SourceUrl="http://localhost:58472/Boggle/BoggleService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
